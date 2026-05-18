@@ -68,26 +68,6 @@ Build a machine learning model that forecasts daily sales based on historical da
 
 ---
 
-## 📦 Example API Request & Response
-
-**Request**
-```json
-{
-  "Store_id": 1,
-  "Holiday": 0,
-  "Discount": "Yes",
-  "Sales": 2500,
-  "Orders": 300
-}
-```
-
-**Response**
-```json
-{"prediction": [2750.43]}
-```
-
----
-
 ## Author
 **Srikanth**  
-Data Science Enthusiast | Machine Learning Enthusiast
+
