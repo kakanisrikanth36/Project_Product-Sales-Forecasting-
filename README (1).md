@@ -1,4 +1,4 @@
-# 📈 Sales Forecasting with Machine Learning & Flask API
+# 📈 Product Sales Forecasting with Machine Learning 
 
 ## 📝 Problem Statement
 Retail businesses often face challenges in anticipating sales fluctuations, especially during holidays, discounts, and across store types. Uncertainty in demand leads to **overstocking** or **stock shortages**, impacting revenue and customer satisfaction.
@@ -35,8 +35,9 @@ Build a machine learning model that forecasts daily sales based on historical da
 ### 4. **Machine Learning Modeling**
 - Trained and compared multiple regression models:
   - **Linear Regression** (baseline)
-  - **Ridge/Lasso Regression** (regularization)
-  - **XGBoost** (best performing)
+  - **Random Forest Regressor,  XGBoost, LightGBM models** (Tree Based Models)
+  - **LSTM** (Deep Learning Models)
+  - **ARIMA, SARIMA, Prophet** (Time Series Models)
 - Evaluated models using cross-validation and error metrics
 
 ### 5. **Insights & Recommendations**
@@ -47,10 +48,10 @@ Build a machine learning model that forecasts daily sales based on historical da
 ---
 
 ## 🏆 Final Results
-- **Best Model:** XGBoost
-- **R² Score:** ~0.85
-- **RMSE:** Reduced by ~20% vs baseline Linear Regression
-- **MAE:** Indicates average forecast error of ~3–5% of daily sales
+- **Best Model:** LGBM
+- **R² Score:** ~0.98
+- **RMSE:** Reduced by ~29.87% vs baseline Linear Regression
+- **MAE:** Reduced by ~37.2% vs baseline Linear Regression
 
 ---
 
@@ -87,6 +88,6 @@ Build a machine learning model that forecasts daily sales based on historical da
 
 ---
 
-## 🙌 Author
-**Popatsing Waghela**  
-Aspirant Data Scientist | Finance & Procurement Analytics | Machine Learning Enthusiast
+## Author
+**Srikanth**  
+Data Science Enthusiast | Machine Learning Enthusiast
